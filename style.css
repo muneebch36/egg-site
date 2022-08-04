@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  background-color: #ffd963;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 16px;
+  font-size: 20px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.links {
+  display: flex;
+  gap: 16px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-image > img {
+  max-width: 50%;
+  height: auto;
+}
+
+.recipe > img {
+  border-radius: 25px;
+  background: #000000;
+  padding: 2px;
+  width: 200px;
+  height: 150px;
+}
