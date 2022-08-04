@@ -9,19 +9,17 @@
   background-color: #ffd963;
   display: flex;
   align-items: center;
-  flex-direction: column;
-}
-
-.top .header {
-  align-self: flex-start;
-  justify-content: space-between;
-  gap: 16px;
+  justify-content: center;
+  height: 50vh;
+  padding: 50px;
 }
 
 .header {
   display: flex;
-  justify-content: space-between;
   font-size: 24px;
+  justify-content: space-between;
+  background-color: #ffd963;
+  padding: 16px;
 }
 
 a {
@@ -47,7 +45,7 @@ ul {
 }
 
 .intro-image > img {
-  max-width: 50%;
+  width: 200px;
   height: auto;
 }
 
